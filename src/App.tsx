@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import { useEffect } from 'react';
 import Navbar from './components/layout/Navbar';
@@ -25,7 +25,7 @@ const ScrollToTop = () => {
 
 function App() {
   return (
-    <Router>
+    <>
       <ScrollToTop />
       <div className="min-h-screen bg-black text-white overflow-x-hidden dark">
         <Navbar />
@@ -42,7 +42,7 @@ function App() {
         </AnimatePresence>
         <Footer />
       </div>
-    </Router>
+    </>
   );
 }
 
