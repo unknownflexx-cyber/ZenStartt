@@ -241,30 +241,30 @@ const Team = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   
   const teamMembers = [
-    {
-      name: 'Yomi Denzel',
-      role: 'E-Commerce 2.0',
-      image: '/photos/team/team1.png',
-      bio: 'Leading expert in modern e-commerce strategies and digital transformation.',
-    },
-    {
-      name: 'Timothée Moiroux',
-      role: 'Investissement Immo',
-      image: '/photos/team/team2.png',
-      bio: 'It was in high school then a student Timothée understood the false freedom offered by studies and a full-time professional career in parallel with his medical studies.',
-    },
-    {
-      name: 'David Sequiera',
-      role: 'Closing',
-      image: '/photos/team/team3.png',
-      bio: 'Specialist in sales closing techniques and conversion optimization.',
-    },
-    {
-      name: 'Manuel Ravier',
-      role: 'Investissement immobilier',
-      image: '/photos/team/team4.png',
-      bio: 'Real estate investment strategist with proven track record.',
-    },
+      {
+        name: 'Yomi Denzel',
+        role: 'E-Commerce 2.0',
+        image: `${import.meta.env.BASE_URL}photos/team/team1.png`,
+        bio: 'Leading expert in modern e-commerce strategies and digital transformation.',
+      },
+      {
+        name: 'Timothée Moiroux',
+        role: 'Investissement Immo',
+        image: `${import.meta.env.BASE_URL}photos/team/team2.png`,
+        bio: 'It was in high school then a student Timothée understood the false freedom offered by studies and a full-time professional career in parallel with his medical studies.',
+      },
+      {
+        name: 'David Sequiera',
+        role: 'Closing',
+        image: `${import.meta.env.BASE_URL}photos/team/team3.png`,
+        bio: 'Specialist in sales closing techniques and conversion optimization.',
+      },
+      {
+        name: 'Manuel Ravier',
+        role: 'Investissement immobilier',
+        image: `${import.meta.env.BASE_URL}photos/team/team4.png`,
+        bio: 'Real estate investment strategist with proven track record.',
+      },
   ];
 
   return (

@@ -243,7 +243,7 @@ const Portfolio = () => {
         {/* Background Image */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(/photos/bg.png)' }}
+          style={{ backgroundImage: `url(${import.meta.env.BASE_URL}photos/bg.png)` }}
         />
         {/* Black Overlay */}
         <div className="absolute inset-0 bg-black/60" />
